@@ -1,0 +1,3 @@
+cambie el nombre de la rama de master a main
+en git
+debo actualizar en github
