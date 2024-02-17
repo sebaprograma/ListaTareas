@@ -1,0 +1,8 @@
+<header>
+    <h1>{{titulo}}</h1>
+    <app-button 
+        color="{{showAddTask ? 'red' : 'green'}}" 
+        text="{{showAddTask ? 'Cerrar Tarea' : 'Agregar Tarea'}}"
+        (btnClick)="toggleAddTask()">
+    </app-button>
+</header>
